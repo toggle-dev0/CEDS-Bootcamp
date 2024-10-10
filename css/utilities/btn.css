@@ -1,0 +1,9 @@
+.btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width: 100px;
+    padding: 8px 0;
+    background-color: blue;
+    text-decoration: none;
+}

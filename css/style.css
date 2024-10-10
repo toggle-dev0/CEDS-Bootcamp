@@ -1,0 +1,256 @@
+@import url(../css/utilities/btn.css);
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ddd;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+nav ul {
+    display: flex;
+    /* border: 1px solid red; */
+    flex-flow: row nowrap;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+nav h1 {
+    padding: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.container-1 {
+    background-image: url("../images/fitness-2.jpg");
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.shadow {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.hero-heading {
+    font-size: 50px;
+    line-height: .1rem;
+}
+
+.content {  
+    width: 90%;
+    margin: auto;
+}
+
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.about {
+    text-align: center;
+    padding: 6rem 0;
+    /* border: 1px solid red; */
+}
+
+.about h1 {
+    font-size: 40px;
+    line-height: .1rem;
+}
+
+.about p {
+    width: 60%;
+    margin: auto;
+}
+
+.img-container {
+    overflow: hidden;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.activity-card img {
+    width: 100%;
+    display: block;
+    border-radius: 1rem;
+}
+
+.activity-card strong {
+    text-align: center;
+    display: block;
+}
+
+.testimonials {
+    padding: 2rem 0 8rem;
+}
+
+.col-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.rating-review h3 {
+    line-height: .05rem;
+    margin: .8rem 0;
+}
+
+.review-img {
+    width: 50px;
+    height: 50px;
+}
+
+.review-img img {
+    display: block;
+    width: 100%;
+}
+
+.review-stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.star {
+    width: 1.3rem;
+    height: 1.3rem;
+
+}
+
+.review-stars img {
+    width: 100%;
+}
+
+.contact h1, .contact p {
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    line-height: .1rem;
+}
+
+.bmi-form {
+    width: 40%;
+    margin: auto auto 1rem;
+    border-radius: 1rem;
+    border: .1rem solid #eee;
+    padding: 1rem 0 0;
+}
+
+.bmi-form legend {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bmi-form fieldset {
+    border: none;
+}
+
+.bmi-form label {
+    margin: 0 .8rem 0;
+}
+
+.bmi-form input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.bmi-form input[type='text'] {
+    border: none;
+    background-color: #eee;
+}
+
+.bmi-form input:focus {
+    outline: none;
+}
+
+.bmi-form input[type='submit'] {
+    border: none;
+    cursor: pointer;
+}
+
+.form-field {
+    padding: 1rem 0;
+}
+
+footer {
+    background-color: rgb(6, 2, 24);
+    padding: 15px 10px;
+    color: white;
+}
+
+.links {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+.links img {
+    display: block;
+    width: 2rem;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.links li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
