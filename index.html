@@ -196,17 +196,35 @@
               <fieldset>
                 <div class="form-field">
                   <label for="">Weight</label>
-                  <input type="text" placeholder="0 kg">
+                  <input class="weight-field" type="number" placeholder="0 kg">
                 </div>
                 <div class="form-field">
                   <label for="">Height</label>
-                  <input type="text" placeholder="0 cm">
+                  <input min="0" class="height-field" type="number" placeholder="0 cm" required>
                 </div>
                 <div class="form-field">
-                  <input class="btn" type="submit" value="Get BMI">
+                  <input min="0" class="btn get-bmi-btn" type="submit" value="Get BMI" required>
                 </div>
               </fieldset>
             </form>
+
+            <div class="bmi-output-container">
+
+              <div class="bmi-output">
+                <div class="bmi-output-text">
+  
+                  <p>Your BMI is:</p>
+                  <h2 class="bmi-result">BMI Result</h2>
+                  <p class="bmi-message">Message</p>
+                </div>
+                <div class="bmi-output-img">
+                  <img src="./assets/weight-scale-solid.svg" alt="A weight scale icon">
+                </div>
+              </div>
+              <button class="hide-btn btn">
+                Hide
+              </button>
+            </div>
           </section>
          
       </section>

@@ -205,7 +205,7 @@ nav h1 {
     border-radius: 1rem;
 }
 
-.bmi-form input[type='text'] {
+.bmi-form input[type='number'] {
     border: none;
     background-color: #eee;
 }
@@ -221,6 +221,48 @@ nav h1 {
 
 .form-field {
     padding: 1rem 0;
+}
+
+.bmi-output-container {
+    display: none;
+    margin: 1rem auto;
+    border: .1rem solid #ddd;
+    width: 50%;
+    border-radius: 1rem;
+    color:  white;
+    background-color: rgb(6, 2, 24);
+}
+
+.bmi-output {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.bmi-output-text p {
+    text-align: left;
+}
+
+.bmi-output-img {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.bmi-output img {
+    width: 8rem;
+}
+
+.hide-btn {
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    margin: 1rem auto;
+    text-align: center;
+    display: block;
+    border-radius: .2rem;
 }
 
 footer {
